@@ -1,10 +1,13 @@
 import NavBar from "./Components/NavBar";
+import Textform from "./Components/Textform";
 
 
 function App() {
   return (
     <div className="App">
-        <NavBar/>
+        <NavBar title="textUtiles"/>
+        <Textform heading="Input Text Here"/>
+       
     </div>
   );
 }
